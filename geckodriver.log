@@ -1,0 +1,743 @@
+1685436461695	geckodriver	INFO	Listening on 127.0.0.1:41009
+1685436461725	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "33145" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileITiViV"
+1685436462280	Marionette	INFO	Marionette enabled
+1685436462285	Marionette	INFO	Listening on port 39383
+WebDriver BiDi listening on ws://localhost:33145
+Read port: 39383
+1685436462417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileITiViV/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:33145/devtools/browser/91579782-3a90-45c5-a3a2-a2383f83b167
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685436640778	Marionette	INFO	Stopped listening on port 39383
+1685437077299	geckodriver	INFO	Listening on 127.0.0.1:40217
+1685437077331	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42003" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuHKx5c"
+1685437077871	Marionette	INFO	Marionette enabled
+1685437077875	Marionette	INFO	Listening on port 46345
+WebDriver BiDi listening on ws://localhost:42003
+Read port: 46345
+1685437078004	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuHKx5c/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:42003/devtools/browser/7d1aa4f7-d15b-49f9-be14-b22f2183de65
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685437118538	Marionette	INFO	Stopped listening on port 46345
+1685437142512	geckodriver	INFO	Listening on 127.0.0.1:44429
+1685437142542	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "43423" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMsbAKL"
+1685437143087	Marionette	INFO	Marionette enabled
+1685437143092	Marionette	INFO	Listening on port 34277
+WebDriver BiDi listening on ws://localhost:43423
+Read port: 34277
+1685437143219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMsbAKL/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43423/devtools/browser/20ea196c-6a83-4d72-a941-47605f39a8e0
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1685437216979	geckodriver	INFO	Listening on 127.0.0.1:53333
+1685437217016	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "53805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyPrWRz"
+1685437217581	Marionette	INFO	Marionette enabled
+1685437217586	Marionette	INFO	Listening on port 41099
+WebDriver BiDi listening on ws://localhost:53805
+Read port: 41099
+1685437217726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyPrWRz/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:53805/devtools/browser/eeb988d4-81bf-402c-a448-8e1b9fc7e5aa
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685437221381	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F%3Fcontent%3D302675%26medium%3DRetargeting%2B%2528Display%2529%26source%3DAff-Awin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685437250322	Marionette	INFO	Stopped listening on port 41099
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685437253561	Marionette	INFO	Stopped listening on port 34277
+1685437449504	geckodriver	INFO	Listening on 127.0.0.1:33797
+1685437449533	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "32973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLscJcR"
+1685437450092	Marionette	INFO	Marionette enabled
+1685437450097	Marionette	INFO	Listening on port 34261
+WebDriver BiDi listening on ws://localhost:32973
+Read port: 34261
+1685437450243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLscJcR/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:32973/devtools/browser/8b4e9304-a9e7-43d5-9662-5fc89498a491
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685437518373	geckodriver	INFO	Listening on 127.0.0.1:37873
+1685437518410	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "50589" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehq2FmX"
+1685437518940	Marionette	INFO	Marionette enabled
+1685437518945	Marionette	INFO	Listening on port 41881
+WebDriver BiDi listening on ws://localhost:50589
+Read port: 41881
+1685437519077	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehq2FmX/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50589/devtools/browser/53933f1d-8d61-42da-9a11-bfbd3c0f0e66
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685437596502	Marionette	INFO	Stopped listening on port 41881
+1685437663942	geckodriver	INFO	Listening on 127.0.0.1:42887
+1685437663971	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyIxVxq"
+1685437664502	Marionette	INFO	Marionette enabled
+1685437664507	Marionette	INFO	Listening on port 33551
+WebDriver BiDi listening on ws://localhost:42223
+Read port: 33551
+1685437664637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyIxVxq/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:42223/devtools/browser/2e5fca2b-36f6-4670-ae7d-1780a4f0a259
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685437673982	Marionette	INFO	Stopped listening on port 34261
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685437741419	Marionette	INFO	Stopped listening on port 33551
+1685437753369	geckodriver	INFO	Listening on 127.0.0.1:45089
+1685437753398	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "35267" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehE6a4X"
+1685437753931	Marionette	INFO	Marionette enabled
+1685437753935	Marionette	INFO	Listening on port 46645
+WebDriver BiDi listening on ws://localhost:35267
+Read port: 46645
+1685437754080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehE6a4X/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:35267/devtools/browser/66b9d81b-41a2-462f-8206-9315e9b3fb05
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685437805227	Marionette	INFO	Stopped listening on port 46645
+1685437959590	geckodriver	INFO	Listening on 127.0.0.1:45643
+1685437959619	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45903" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAN0cW1"
+1685437960155	Marionette	INFO	Marionette enabled
+1685437960160	Marionette	INFO	Listening on port 42037
+WebDriver BiDi listening on ws://localhost:45903
+Read port: 42037
+1685437960299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAN0cW1/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45903/devtools/browser/529444db-2262-4be2-ab3a-cde4cbe22dce
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1685438514769	geckodriver	INFO	Listening on 127.0.0.1:35281
+1685438514801	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "43931" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileanWBHR"
+1685438515363	Marionette	INFO	Marionette enabled
+1685438515367	Marionette	INFO	Listening on port 41755
+WebDriver BiDi listening on ws://localhost:43931
+Read port: 41755
+1685438515510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileanWBHR/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43931/devtools/browser/27e664d5-a627-4068-8925-8fc522f9691e
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685438527284	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685438527851	Marionette	INFO	Stopped listening on port 41755
+1685438532322	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1685438548517	geckodriver	INFO	Listening on 127.0.0.1:52503
+1685438548544	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "59131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecgA0p0"
+1685438549081	Marionette	INFO	Marionette enabled
+1685438549085	Marionette	INFO	Listening on port 46035
+WebDriver BiDi listening on ws://localhost:59131
+Read port: 46035
+1685438549219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecgA0p0/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:59131/devtools/browser/d489698a-e970-49d8-8d6c-2eab09eb84a2
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 596"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:596:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 596, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 596: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1685438886797	geckodriver	INFO	Listening on 127.0.0.1:50109
+1685438886831	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "44767" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilea8jRq8"
+1685438887360	Marionette	INFO	Marionette enabled
+1685438887365	Marionette	INFO	Listening on port 33441
+WebDriver BiDi listening on ws://localhost:44767
+Read port: 33441
+1685438887494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea8jRq8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:44767/devtools/browser/39b96574-9113-42a7-be25-cc97ceb0957b
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685439115549	Marionette	INFO	Stopped listening on port 33441
+1685439142574	geckodriver	INFO	Listening on 127.0.0.1:59855
+1685439142602	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "48131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileq81RQ1"
+1685439143152	Marionette	INFO	Marionette enabled
+1685439143157	Marionette	INFO	Listening on port 39023
+WebDriver BiDi listening on ws://localhost:48131
+Read port: 39023
+1685439143304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileq81RQ1/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:48131/devtools/browser/6fcdce63-0c2a-43e8-b094-0969c893a7d9
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1685439161485	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685439163168	Marionette	INFO	Stopped listening on port 39023
+1685439286509	geckodriver	INFO	Listening on 127.0.0.1:54039
+1685439286537	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55257" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileI9M1RT"
+1685439287077	Marionette	INFO	Marionette enabled
+1685439287081	Marionette	INFO	Listening on port 38397
+WebDriver BiDi listening on ws://localhost:55257
+Read port: 38397
+1685439287213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI9M1RT/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55257/devtools/browser/db482d33-5964-436d-8bac-7ce50e3dccf0
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685439310901	Marionette	INFO	Stopped listening on port 38397
+1685439338817	geckodriver	INFO	Listening on 127.0.0.1:58363
+1685439338847	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45585" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBfWH8N"
+1685439339401	Marionette	INFO	Marionette enabled
+1685439339405	Marionette	INFO	Listening on port 33351
+WebDriver BiDi listening on ws://localhost:45585
+Read port: 33351
+1685439339546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBfWH8N/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45585/devtools/browser/45bf97e1-57b6-4fd8-83a7-7d95f81d81a6
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Fstats&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685439744820	Marionette	INFO	Stopped listening on port 46035
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1685439866074	Marionette	INFO	Stopped listening on port 33351
+1685439952344	geckodriver	INFO	Listening on 127.0.0.1:44075
+1685439952373	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "60251" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezvEhcn"
+1685439952909	Marionette	INFO	Marionette enabled
+1685439952913	Marionette	INFO	Listening on port 45973
+WebDriver BiDi listening on ws://localhost:60251
+Read port: 45973
+1685439953051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezvEhcn/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:60251/devtools/browser/d3a4800c-1bce-4a20-be0c-8dee6e1a47b5
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Fstats&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1685440260357	geckodriver	INFO	Listening on 127.0.0.1:42409
+1685440260389	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "53581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePs6cRM"
+1685440260921	Marionette	INFO	Marionette enabled
+1685440260925	Marionette	INFO	Listening on port 44975
+WebDriver BiDi listening on ws://localhost:53581
+Read port: 44975
+1685440261050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePs6cRM/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:53581/devtools/browser/8e8795ab-e6b5-4542-a117-116e39e11cfd
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.global-exam.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2F&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Fstats&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Findustry%2F1933%2Fcontent%2F6817&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js, line 656: unreachable code after return statement
+JavaScript warning: https://dpph48jd9gjgb.cloudfront.net/9dedf11d-3044-4d7f-857c-a81e14426307/js/app.js line 1 > eval, line 656: unreachable code after return statement
+libEGL warning: DRI2: failed to authenticate
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fbusiness.global-exam.com%2Fstats&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=pageview, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
