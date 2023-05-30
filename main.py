@@ -4,9 +4,11 @@ from selenium.webdriver.common.by import By
 from time import sleep
 import os 
 
+#configuration
+global_exam_mail=""
+global_exam_password=""
 
-global_exam_mail="e.akaalfred@ecole-ipssi.net"
-global_exam_password="Campigli@1"
+#begin navigation
 
 driver = webdriver.Firefox()
 driver.get("https://auth.global-exam.com/login")
@@ -48,7 +50,7 @@ for i in range(16):
     cmpt=1
     while terminer == False:
         try:
-            driver.find_element(By.XPATH, '//button[text()="Terminer"]')
+            driver.find_element(By.XPATH, '//button[text()="Terminer"]').click()
             terminer=True
             print("terminé")
             sleep(2)
@@ -68,7 +70,7 @@ for i in range(16):
         if cmpt % 2==0:
             sleep(3)
         else:
-            sleep(40)
+            sleep(50)
         cmpt+=1
         
 
