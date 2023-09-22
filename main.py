@@ -1,46 +1,81 @@
 
 from selenium import webdriver
 import yaml
+import psutil
+import time
 from browsermobproxy import Server
+import colorama 
+from termcolor import colored
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from time import sleep
 import os 
 import sys
+import func as myfunction
 
+#--------
+
+colorama.init()
 __WORKDIR__= os.path.dirname(os.path.abspath(sys.argv[0]))
 
 
-#load config
+#load config from yaml
 with open("conf.yaml","r") as file:
     config= yaml.safe_load(file)
-
-print(config)
-exit(1)
-
-
-# Start browsermob proxy
+#set parmas and options for global exam
+global_exam_url="https://auth.global-exam.com/login"
+drvername= "chromedriver" if os.name == 'posix' else chromedriver 
+chrome_driver_location = os.path.join(__WORKDIR__,drvername)
 browsermobproxy_location =os.path.join(__WORKDIR__,"browsermob-proxy-2.1.4/bin/browsermob-proxy")
 
+
+#check if  proxy process exist
+for proc in psutil.process_iter():
+    # check whether the process name matches
+    if proc.name() == "browsermob-proxy":
+        print("Process found ")
+        proc.kill()
+        print("Process killed ")
+
+# Start proxy
 server = Server(browsermobproxy_location)
 server.start()
-print("proxy server started....")
-exit(1)
+time.sleep(1)
 proxy = server.create_proxy()
 
-### OPTIONS ###
-url="https://auth.global-exam.com/login"
-firefox_driver_location = os.path.join(__WORKDIR__,"geckodriver")
-print(firefox_driver_location)
+# Setup Selenium to use BrowserMob Proxy
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("--proxy-server={0}".format(proxy.proxy))
+
+# To ignore certificate errors
+chrome_options.add_argument('--ignore-certificate-errors')
+chrome_options.add_argument('--ignore-ssl-errors')
+chrome_options.add_argument('--headless') 
+driver = webdriver.Chrome(options=chrome_options)
+
+# Start capturing network requests
+proxy.new_har("globalexam",options={'captureContent': True})
+driver.get(global_exam_url)
+time.sleep(4)
+
+
+# Print all URLs that were requested
+myfunction.get_page_data(proxy)
+myfunction.quit(server,driver)
+
+
+
+
+
+
 exit(1)
-options = webdriver.Firefox()
-driver.get("https://auth.global-exam.com/login")
-options = webdriver.ChromeOptions()
-options.binary_location = chrome_location
+driver.quit()
+proxy.qui()
 # Setup proxy to point to our browsermob so that it can track requests
 options.add_argument('--proxy-server=%s' % proxy.proxy)
-driver = webdriver.Chrome(chromedriver_location, chrome_options=options)
+#driver = webdriver.Chrome(chromedriver_location, optifoptions)
 print(driver.title)
+exit(1)
 assert "GlobalExam" in driver.title
 elem = driver.find_element(By.NAME, "email")
 elem.clear()

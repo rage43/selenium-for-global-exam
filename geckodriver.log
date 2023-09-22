@@ -801,3 +801,159 @@ Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
 1685441290086	Marionette	INFO	Stopped listening on port 44975
 1685441301868	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1695377472411	geckodriver	INFO	Listening on 127.0.0.1:57843
+1695377472451	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42491" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilec8sWX4"
+1695377473153	Marionette	INFO	Marionette enabled
+1695377473160	Marionette	INFO	Listening on port 39493
+WebDriver BiDi listening on ws://localhost:42491
+Read port: 39493
+1695377473328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilec8sWX4/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:42491/devtools/browser/0871e37d-bf9c-47f2-9588-dea8d749040f
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1695377874667	geckodriver	INFO	Listening on 127.0.0.1:47345
+1695377875190	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42285" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehpm8Ba"
+1695377876282	Marionette	INFO	Marionette enabled
+1695377876290	Marionette	INFO	Listening on port 43569
+Read port: 43569
+WebDriver BiDi listening on ws://localhost:42285
+1695377876558	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehpm8Ba/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:42285/devtools/browser/14080ce7-3fed-43af-b39c-00ed5f8d905f
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1695377885985	Marionette	INFO	Stopped listening on port 43569
+1695378078190	geckodriver	INFO	Listening on 127.0.0.1:54009
+1695378078734	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "36363" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenwHHdT"
+1695378079579	Marionette	INFO	Marionette enabled
+1695378079585	Marionette	INFO	Listening on port 44327
+WebDriver BiDi listening on ws://localhost:36363
+Read port: 44327
+1695378079780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenwHHdT/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:36363/devtools/browser/e3fbeb0a-efd5-4292-ba18-7d1df8169c1f
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1695378084141	Marionette	INFO	Stopped listening on port 44327
+1695378751673	geckodriver	INFO	Listening on 127.0.0.1:46093
+1695378752242	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "36263" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEWf1qO"
+1695378753008	Marionette	INFO	Marionette enabled
+1695378753012	Marionette	INFO	Listening on port 39885
+WebDriver BiDi listening on ws://localhost:36263
+Read port: 39885
+1695378753201	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEWf1qO/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:36263/devtools/browser/942c4878-c0f7-4e30-8425-24791270dfe4
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1695378766731	Marionette	INFO	Stopped listening on port 39885
+1695380592506	geckodriver	INFO	Listening on 127.0.0.1:55215
+1695380593044	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... 94" "--remote-debugging-port" "39865" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaXbbv0"
+1695380593728	Marionette	INFO	Marionette enabled
+1695380593733	Marionette	INFO	Listening on port 42409
+WebDriver BiDi listening on ws://localhost:39865
+Read port: 42409
+1695380593891	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaXbbv0/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39865/devtools/browser/166f12ae-d1df-46f3-93f4-01071d31c7aa
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1695380602440	Marionette	INFO	Stopped listening on port 42409
+1695380978630	geckodriver	INFO	Listening on 127.0.0.1:39111
+1695380979154	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... 98" "--remote-debugging-port" "55269" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5BKEcG"
+1695380986925	geckodriver	INFO	Listening on 127.0.0.1:45923
+1695380986958	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... 99" "--remote-debugging-port" "57967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZgyXOy"
+1695380987688	Marionette	INFO	Marionette enabled
+1695380987694	Marionette	INFO	Listening on port 36515
+WebDriver BiDi listening on ws://localhost:57967
+Read port: 36515
+1695380987889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZgyXOy/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:57967/devtools/browser/e0153973-94d9-4f98-9c49-16f54687c95e
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1695381617599	geckodriver	INFO	Listening on 127.0.0.1:60243
+1695381618113	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... 81" "--remote-debugging-port" "45163" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMS8lqJ"
+1695381619299	Marionette	INFO	Marionette enabled
+1695381619309	Marionette	INFO	Listening on port 35273
+Read port: 35273
+WebDriver BiDi listening on ws://localhost:45163
+1695381619588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMS8lqJ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45163/devtools/browser/5c22b333-05f9-42ce-b818-50907462a04f
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1695381632967	Marionette	INFO	Stopped listening on port 35273
+1695381903143	geckodriver	INFO	Listening on 127.0.0.1:59961
+1695381903675	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... 82" "--remote-debugging-port" "60613" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFv5rvS"
+1695381904306	Marionette	INFO	Marionette enabled
+1695381904312	Marionette	INFO	Listening on port 43243
+WebDriver BiDi listening on ws://localhost:60613
+Read port: 43243
+1695381904479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFv5rvS/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:60613/devtools/browser/91118075-5c81-4667-8ec0-b3a03c0f7c39
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1695381910451	Marionette	INFO	Stopped listening on port 43243
+1695381945308	geckodriver	INFO	Listening on 127.0.0.1:60455
+1695381945838	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... 83" "--remote-debugging-port" "45821" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4fgG6d"
+1695381946589	Marionette	INFO	Marionette enabled
+1695381946594	Marionette	INFO	Listening on port 33673
+WebDriver BiDi listening on ws://localhost:45821
+Read port: 33673
+1695381946763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4fgG6d/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45821/devtools/browser/a208d415-fc20-4bc9-97cb-6491e33c0e34
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1695381952925	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1695381952935	Marionette	INFO	Stopped listening on port 33673
+1695381975890	geckodriver	INFO	Listening on 127.0.0.1:53853
+1695381976425	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... 84" "--remote-debugging-port" "38419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBnW5Bg"
+1695381977030	Marionette	INFO	Marionette enabled
+1695381977034	Marionette	INFO	Listening on port 45909
+WebDriver BiDi listening on ws://localhost:38419
+Read port: 45909
+1695381977203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBnW5Bg/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38419/devtools/browser/f7b65f92-9611-4069-8ca7-b3e2bfdbeb76
+JavaScript warning: https://p.gsitrix.com/page/?a=5d54101e5e62b1565790238&ref=https%3A%2F%2Fauth.global-exam.com%2Flogin&c=-1&w=global-exam.com&as=gp&av=addservicemedia&p=shoppingcart&prid=, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1695382264161	Marionette	INFO	Stopped listening on port 45909

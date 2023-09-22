@@ -1,3 +1,6 @@
 browsermob-proxy
 selenium
 PyYAML
+psutil
+colorama
+tercolor
