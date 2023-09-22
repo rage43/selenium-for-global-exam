@@ -1,4 +1,6 @@
+
 from selenium import webdriver
+import yaml
 from browsermobproxy import Server
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -9,10 +11,12 @@ import sys
 __WORKDIR__= os.path.dirname(os.path.abspath(sys.argv[0]))
 
 
+#load config
+with open("conf.yaml","r") as file:
+    config= yaml.safe_load(file)
 
-#configuration
-global_exam_mail=""
-global_exam_password=""
+print(config)
+exit(1)
 
 
 # Start browsermob proxy
