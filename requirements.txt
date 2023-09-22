@@ -3,4 +3,4 @@ selenium
 PyYAML
 psutil
 colorama
-tercolor
+termcolor

@@ -2,7 +2,9 @@
 from selenium import webdriver
 import yaml
 import psutil
+import re
 import time
+import json
 from browsermobproxy import Server
 import colorama 
 from termcolor import colored
@@ -22,6 +24,8 @@ __WORKDIR__= os.path.dirname(os.path.abspath(sys.argv[0]))
 #load config from yaml
 with open("conf.yaml","r") as file:
     config= yaml.safe_load(file)
+
+
 #set parmas and options for global exam
 global_exam_url="https://auth.global-exam.com/login"
 drvername= "chromedriver" if os.name == 'posix' else chromedriver 
@@ -50,101 +54,130 @@ chrome_options.add_argument("--proxy-server={0}".format(proxy.proxy))
 # To ignore certificate errors
 chrome_options.add_argument('--ignore-certificate-errors')
 chrome_options.add_argument('--ignore-ssl-errors')
-chrome_options.add_argument('--headless') 
+#chrome_options.add_argument('--headless') 
 driver = webdriver.Chrome(options=chrome_options)
 
 # Start capturing network requests
 proxy.new_har("globalexam",options={'captureContent': True})
 driver.get(global_exam_url)
-time.sleep(4)
+
+#declaration de variables
+tour_de_boucle=0
 
 
-# Print all URLs that were requested
-myfunction.get_page_data(proxy)
-myfunction.quit(server,driver)
+#attendre le chargement de la page 
+while "GlobalExam" not in driver.title:
+    print("En attente de la page de connexion GlobalExxam....")
+    tour_de_boucle+=1
+    myfunction.timeout_selenium(server,driver,tour_de_boucle)
 
 
+#Saisie des infos de connexion
+
+global_exam_mail=config.get("global_exam_mail")
+global_exam_password=config.get("global_exam_pass")
+print(global_exam_mail)
+if global_exam_mail is None or global_exam_password is None:
+    myfunction.msg_red("Le mail ou le mot de passe doivent etres renseignés")
+    myfunction.quit(server,driver)
 
 
-
-
-exit(1)
-driver.quit()
-proxy.qui()
-# Setup proxy to point to our browsermob so that it can track requests
-options.add_argument('--proxy-server=%s' % proxy.proxy)
-#driver = webdriver.Chrome(chromedriver_location, optifoptions)
-print(driver.title)
-exit(1)
-assert "GlobalExam" in driver.title
-elem = driver.find_element(By.NAME, "email")
+#saisie du mail
+elem=None
+tour_de_boucle=0
+while elem == None:
+    elem = driver.find_element(By.NAME, "email")
+    tour_de_boucle+=1
+    myfunction.timeout_selenium(server,driver,tour_de_boucle)
 elem.clear()
 elem.send_keys(global_exam_mail)
-sleep(2)
-elem= driver.find_element(By.NAME, "password")
+
+#saisie du mot de passe
+elem=None
+tour_de_boucle=0
+while elem == None:
+    elem= driver.find_element(By.NAME, "password")
+    tour_de_boucle+=1
+    myfunction.timeout_selenium(server,driver,tour_de_boucle)
 elem.clear()
 elem.send_keys(global_exam_password)
-sleep(2)
-#authentification
-login_button=driver.find_element("xpath","/html/body/div[1]/main/div/div/div/div/div/form/div[3]/button")
-login_button.click()
-sleep(5)
-driver.get("https://business.global-exam.com/stats")
-sleep(5)
+
+#click sur authentification
+elem=False
+tour_de_boucle=0
+while elem == False:
+    try:
+        #driver.find_element("xpath","/html/body/div[1]/main/div/div/div/div/div/form/div[3]/button").click()
+        driver.find_element(By.XPATH, '//button[text()=" Se connecter "]')
+        elem=True
+    except:
+        tour_de_boucle+=1
+        myfunction.timeout_selenium(server,driver,tour_de_boucle)
+
+print('#'*100)
+print("Authentifié à GlobalExam")
+
+continuer_xpath="Continuer"
+
+suivant_xpath="Suivant"
+
+
+modules = ("https://business.global-exam.com/industry/1933/content","https://business.global-exam.com/industry/2949/content")
 
 #debut traitements exercices
-for i in range(16):
-    driver.get("https://business.global-exam.com/industry/1933/content/6817")
-    sleep(5)
-
-    for url_to_next in (
-                "/html/body/div[1]/div/main/div[2]/div[2]/div[1]/div[1]/div/div[2]/div[2]/div/button[2]",
-                "/html/body/div[1]/div/div[2]/div/div[2]/div/div/div[2]/div[2]/button"
-                ):
-        try:
-            driver.find_element("xpath",url_to_next).click()
-            timings = driver.execute_script("return window.performance.getEntries();")
-        except:
-            print("Contenue cliquable non trouvé")
-            pass
-        sleep(5)
-
-    #continue exercise
-
-    sleep(15)
-    terminer=False
-    cmpt=1
-    while terminer == False:
-        try:
-            driver.find_element(By.XPATH, '//button[text()="Terminer"]').click()
-            terminer=True
-            print("terminé")
-            sleep(2)
-            driver.get("https://business.global-exam.com/stats")
-            sleep(10)
-
-        except:
-            terminer=False
+#modlule
+for module in modules:
+    module_url=module
+    liste_exercice_a_debuter=True
+    #page d'exercices
+    driver.get(module_url)
+    #element de module  #and next_element_of_module==True
+    #Avancer sur les elements de module
+    next_element_of_module=True
+    while liste_exercice_a_debuter== True :
         
-        try:
-            driver.find_element("xpath","/html/body/div[1]/div/div[2]/div[2]/button").click()
-        except:
-            try:
-                driver.find_element("xpath","/html/body/div[1]/div[2]/div[2]/button").click()
-            except:
-                pass
-        if cmpt % 2==0:
-            sleep(3)
-        else:
-            sleep(50)
-        cmpt+=1
-        
+        liste_exercice_a_debuter= myfunction.click_on_button(driver,continuer_xpath)
+
+        #si exercice de module dispo
+        exercice_terminer=None
+        while exercice_terminer!=True:
+            exercice_suivant=myfunction.click_on_button(driver,suivant_xpath,"suivant")
+            if str(driver.current_url()).endswith("result"):
+                exercice_terminer=True
+                driver.get(module_url)
+
+        if liste_exercice_a_debuter==None:
+            current_url = driver.current_url
+            numbers = re.findall(r'\d+', current_url.split('\\')[-1])[0]
+            next_url=current_url.replace(numbers,int(numbers)+1)
+            driver.get(next_url)
+            next_element_of_module=myfunction.click_on_button(driver,continuer_xpath)
+        if myfunction.click_on_button(driver,"Me certifier")==True:
+            exercice_dispo =None 
+            next_element_of_module=None 
+
+'''
 
 
-try:
-    os.remove("geckodriver.log")
-except:
-    pass
-driver.close()
-elem.send_keys(Keys.RETURN)
-assert "No results found." not in driver.page_source
+
+            if exercice_dispo==True:
+                exercice_suivant=None
+                while exercice_suivant  == True:
+                    myfunction.random_wait()
+
+                    
+                    try:
+                        driver.find_element(By.XPATH, '//button[text()="Terminer"]').click()
+                        driver.get(module_url)
+                    except:
+                        exercice_suivant=None
+
+                print("exo termine ?")
+                print(exercice_terminer)
+
+            #Retourn à la liste des exos
+            driver.get(module_url)
+     ''' 
+
+myfunction.msg_green("TERMINER !!!!")
+    
