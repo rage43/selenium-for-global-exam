@@ -40,7 +40,8 @@ def msg_red(msg:str):
     print(colored(msg,'red'))
 
 
-def timeout_selenium(server:Server,driver:webdriver,tours_de_boucle=0,nb_tours_accepte=3):
+def timeout_selenium(server:Server,driver:webdriver,tours_de_boucle=0,nb_tours_accepte=4):
+    
     if tours_de_boucle >= nb_tours_accepte:
         print(colored('Impossible de continuer delais d\'attente trop long','red'))
         driver.quit()
@@ -56,16 +57,17 @@ def click_on_button(driver:webdriver,path_name,n=None):
     elem=False
     while elem==False:
         try:
-            driver.find_element(By.XPATH, f'//button[text()="{path_name}"]')
+            driver.find_element(By.XPATH, f'//button[text()="{path_name}"]').click()
+            return True
         except:
-            if elem == False and cmpt>5:
-                return None
+            if cmpt>9:
+                return False
             time.sleep(2)
         cmpt+=1
     return elem
 
 def random_wait():
-    i=random.randint(5, 10)
+    i=random.randint(8, 15)
     print(f"attente de {i} seconde avant de continuer")
     time.sleep(i)
 
